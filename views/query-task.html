@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>Query Task</title>
+	<link rel="stylesheet" href="http://127.0.0.1:8080/arcgis_js_api/library/3.5/3.5/js/dojo/dijit/themes/claro/claro.css" />
+	<link rel="stylesheet" href="http://127.0.0.1:8080/arcgis_js_api/library/3.5/3.5/js/esri/css/esri.css" />
+	<link rel="stylesheet" href="http://127.0.0.1:8080/arcgis_js_api/library/3.5/3.5/js/esri/css/jsapi.css" />
+	<style>
+		html, body, #map {
+			padding: 0;
+			margin: 0;
+			height: 90%;
+		}
+		h2{
+			margin: 0;
+		}
+		#info{
+			background-color: #555;
+			color: white;
+			
+		}
+	</style>
+</head>
+<body>
+	<div id="info">
+		<form action="">
+			<input id="words" type="text" />
+			<a href="#" onclick="querys()">查询</a>
+		</form>
+		<p id="result">结果显示区</p>
+		<br />
+	</div>
+	<div id="map" class="claro"></div>
+	
+	<script src="http://127.0.0.1:8080/arcgis_js_api/library/3.5/3.5/init.js"></script>
+	<script src="../static/js/query-task.js"></script>
+</body>
+</html>
