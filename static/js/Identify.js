@@ -38,7 +38,7 @@ function taskDefinition(){
 	
 	identifyParams.tolerance = 3;
     identifyParams.returnGeometry = true;
-    identifyParams.layerIds = [11, 10]; // query 省级 and 市级
+    identifyParams.layerIds = [13, 12, 11, 10]; // query 省级 and 市级
     identifyParams.width  = map.width;
     identifyParams.height = map.height;
     
