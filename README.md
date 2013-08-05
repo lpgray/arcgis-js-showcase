@@ -1,4 +1,4 @@
-emap
+ArcGIS JavaScript Develop Showcase
 ====
 
-gtmap emap project based on the html5 and ArcGIS JS.
+The project contains the easist snippets, enjoy it by yourself.
